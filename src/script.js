@@ -3,7 +3,8 @@ const { base } = args;
 
 function multiplesTable(base) {
     console.log(`Tabla de múltiplos de ${base}`)
-    for(let i = 0; i < 10; i += 1) {
+    for(let i = 0; i < 10; i += 1) 
+    {
         console.log(`${base}x${i}=${base*i}`);
     }
 }
